@@ -1,0 +1,52 @@
+{
+  "name": "drupal-composer/drupal-project",
+  "description": "Composer template for Drupal projects",
+  "keywords": [ "devops", "drupal" ],
+  "homepage": "https://github.com/lpalgarvio/drupal-composer",
+  "support": {
+    "source": "https://github.com/lpalgarvio/drupal-composer",
+    "docs": "https://github.com/lpalgarvio/drupal-composer/wiki",
+    "issues": "https://github.com/lpalgarvio/drupal-composer/issues",
+    "email": "lp.algarvio@gmail.com"
+  },
+  "license": [
+    "Artistic-2.0"
+  ],
+  "authors": [{
+    "name": "Luís Pedro Algarvio",
+    "email": "lp.algarvio@gmail.com",
+    "homepage": "http://lp.algarvio.org",
+    "role": "DevOps"
+  }],
+  "minimum-stability": "beta",
+  "prefer-stable": true,
+  "config": {
+    "vendor-dir": "vendor",
+    "preferred-install": "dist",
+    "github-protocols": [
+      "https", "git", "ssh"
+    ]
+  },
+  "extra": {
+  },
+  "scripts": {
+    "post-install-cmd": [
+    ],
+    "post-update-cmd": [
+    ]
+  },
+  "repositories": {
+    "composer": {
+      "type": "composer",
+      "url": "https://packagist.drupal-composer.org"
+    }
+  },
+  "require": {
+    "drupal/drupal": "7.*",
+    "drupal/honeypot": "7.*",
+    "drupal/views": "7.*"
+  },
+  "require-dev": {
+    "drupal/devel": "7.*"
+  }
+}
