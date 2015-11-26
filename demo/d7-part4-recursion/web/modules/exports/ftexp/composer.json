@@ -1,0 +1,6 @@
+{
+  "require": {
+    "drupal/strongarm": "7.*",
+    "drupal/features": "7.*"
+  }
+}

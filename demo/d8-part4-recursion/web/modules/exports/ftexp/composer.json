@@ -1,0 +1,6 @@
+{
+  "require": {
+    "drupal/config_update": "8.*@dev",
+    "drupal/features": "8.*@alpha"
+  }
+}

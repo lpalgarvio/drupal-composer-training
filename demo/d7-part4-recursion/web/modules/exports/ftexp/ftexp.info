@@ -1,0 +1,12 @@
+name = ftexp
+description = The main Ftexp feature.
+core = 7.x
+package = Ftexp
+version = 7.x-1.0
+project = ftexp
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+project path = sites/all/modules/exports

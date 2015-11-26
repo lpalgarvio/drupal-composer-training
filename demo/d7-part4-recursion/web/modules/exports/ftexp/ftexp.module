@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ftexp feature.
+ */
+
+include_once 'ftexp.features.inc';
