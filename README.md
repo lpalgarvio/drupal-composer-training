@@ -87,3 +87,22 @@ inside each directory you wish to build. More information can be checked with `c
 
 The installations should now be ready for deployment.
 
+
+##### Credits
+
+The following plugins were used in this demo:
+- [drupal packagist](https://packagist.drupal-composer.org/),
+to add the drupal packagist repo to composer (Part #1)
+- [composer/installers](https://github.com/composer/installers),
+to differentiate drupal dependencies (Part #2)
+- [derhasi/composer-preserve-paths](https://github.com/derhasi/composer-preserve-paths),
+to preserve and force paths (Part #2)
+- [davidbarratt/drupal-structure](https://github.com/davidbarratt/drupal-structure),
+to make the directory structure of Drupal 6/7 look like Drupal 8 (Part #2)
+- [robloach/component-installer](https://github.com/RobLoach/component-installer),
+to support components (libraries) (Part #3)
+- [drupal/drupal-library-installer-plugin](https://github.com/generalredneck/drupal-libraries-installer-plugin),
+to support drupal libraries (Part #3)
+- [wikimedia/composer-merge-plugin](https://github.com/wikimedia/composer-merge-plugin),
+to allow merging composer.json files (Part #4)
+
