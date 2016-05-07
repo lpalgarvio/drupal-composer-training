@@ -24,6 +24,7 @@
     "vendor-dir": "vendor",
     "component-dir": "web/libraries",
     "preferred-install": "dist",
+    "secure-http": false,
     "github-protocols": [
       "https", "git", "ssh"
     ]

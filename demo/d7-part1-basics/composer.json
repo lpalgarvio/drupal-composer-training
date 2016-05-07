@@ -23,6 +23,7 @@
   "config": {
     "vendor-dir": "vendor",
     "preferred-install": "dist",
+    "secure-http": false,
     "github-protocols": [
       "https", "git", "ssh"
     ]
