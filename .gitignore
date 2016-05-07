@@ -1,0 +1,12 @@
+# These .gitignore rules are for developing the skeleton only.
+# You should use the rules provided in .gitignore.example for projects.
+
+# Ignore composer binary and lock file
+composer.phar
+composer.lock
+
+# Ignore files deployed in vendor and web
+vendor/
+web/
+core/
+modules/
